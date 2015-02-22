@@ -1,0 +1,7 @@
+name: Custom Potions
+version: 3.0
+main: pe.nn.custompotions.custompotions
+commands:
+    custiompotions:
+        description: The base command for Custom Potions
+        usage: See '/<command> help'
