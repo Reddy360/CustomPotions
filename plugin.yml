@@ -2,6 +2,7 @@ name: Custom Potions
 version: 3.0
 main: pe.nn.custompotions.custompotions
 commands:
-    custiompotions:
+    custompotions:
         description: The base command for Custom Potions
         usage: See '/<command> help'
+        aliases: [cp, cpotions, customp, cupo]
