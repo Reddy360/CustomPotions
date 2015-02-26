@@ -1,6 +1,6 @@
-name: Custom Potions
+name: CustomPotions
 version: 3.0
-main: pe.nn.custompotions.custompotions
+main: pe.nn.connor.custompotions.CustomPotions
 commands:
     custompotions:
         description: The base command for Custom Potions
