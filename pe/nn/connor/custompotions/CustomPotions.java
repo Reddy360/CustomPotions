@@ -15,12 +15,17 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
+import pe.nn.connor.lanaguagemanager.LanguageManager;
+
 public class CustomPotions extends JavaPlugin{
 	private HashMap<String, PotionEffectType> potionNames;
 	private static short potionDrinkable = 64;
 	private static short potionThrowable = 16390;
+	private static LanaguageManager languageManager;
+	
 	@Override
 	public void onEnable() {
+		lanaguageManager = new LanguageManager("EN_UK", new File(this.getDataFolder(), "lang")); //Defaults to EN_UK
 		//Create Potion name list
 		potionNames = new HashMap<String, PotionEffectType>();
 		//Create automated system for adding new potions
